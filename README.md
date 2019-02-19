@@ -9,3 +9,8 @@ Here we implement ARIMA and LSTM-dense neural network architecture to try and pr
 # ARIMA 
 
 ARIMA stands for auto-regressive integrated moving average. for predicting future points in the series), in such a way that :a pattern of growth/decline in the data is accounted for (auto-regressive), the rate of change of the growth/decline in the data is accounted for (integrated), noise between consecutive time points is accounted for (moving average).
+
+# LSTM
+Given the relative complexity of this task and the potential for many latent features to influence the spot price (e.g., seasonality) recurrent neural network (RNN) can provide better accuracy. RNNs are becoming increasingly popular as a means of modeling time series data such as meteorological data and stock prices. For our task, we use long/short-term memory (LSTM) as the main building blocks of the RNN. LSTMs are able to identify and remember latent features over an unspecified number of time periods, making them a versatile tool in time series prediction.
+
+The results can be seen in the attached PDF
